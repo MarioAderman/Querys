@@ -13,7 +13,7 @@ body {
 }
 
 /* Media Query for Mobile Devices */ 
-@media (max-width: 480px) { 
+@media (max-width: 767px) { 
   body { 
     display: flex;
     flex-direction: column;
@@ -46,39 +46,60 @@ body {
   .social{
     list-style-type: none;
     padding: 0;
+    width: 250px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-  }
-  .social_icon{
-    padding-right: 80%; 
-    padding-left: 80%; 
+    justify-content: space-around;
   }
 } 
         
 /* Media Query for low resolution  Tablets, Ipads */ 
-@media (min-width: 481px) and (max-width: 767px) { 
-    body { 
-          background-color: yellow; 
-        } 
-} 
-        
-/* Media Query for Tablets Ipads portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px){ 
-      body { 
-            background-color: blue; 
-        } 
-} 
-        
-/* Media Query for Laptops and Desktops */ 
-@media (min-width: 1025px) and (max-width: 1280px){ 
-      body { 
-            background-color: green; 
-      } 
-} 
+@media (min-width: 768px) and (max-width: 1024px) { 
+  body { 
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      }
+  header{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navbar{
+    width: 95%;
+    margin-bottom: 5px;
+    background-color: #60605c;
+    color: #60605c;
+  }
+  .hamburger{
+    display: flex;
+    justify-content: right;
+    color: white;
+    background-color: #60605c;
+  }
+  .menu{
+    display: none;
+    padding: 0;
+  }
+  .product{
+    border-style: ridge;
+    border-width: thin;
+    border-radius: 1%;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+  .social{
+    list-style-type: none;
+    padding: 0;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
         
 /* Media Query for Large screens */ 
-@media (min-width: 1281px) { 
+@media (min-width: 1025px) { 
       body { 
             background-color: purple; 
         } 
