@@ -1,3 +1,3 @@
-# Laboratorio_3
+# Querys
 
-#Uso de Media y querys para redimensionamiento de la página a diferentes tamaños de pantalla
+#Use of media and querys to resize the website based based on different window size.
